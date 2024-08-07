@@ -1,0 +1,17 @@
+{
+  "name": "workspace-test",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"workspace-test\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "workspaces": [
+    "packages/m1",
+    "packages/m2"
+  ]
+}
